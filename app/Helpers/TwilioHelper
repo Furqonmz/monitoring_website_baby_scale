@@ -1,0 +1,20 @@
+<?php
+
+// use Illuminate\Support\Facades\Http;
+
+// function kirimPesanWhatsApp($to, $pesan)
+// {
+//     $sid = 'ACea06b5a952a2ea002ebc9eae8a68fcb0'; // contoh: ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//     $token = '25b36e2e21d2b909912fc9958cd24d66';
+//     $from = 'whatsapp:+14155238886' ; // nomor Twilio sandbox
+
+//     $url = "https://api.twilio.com/2010-04-01/Accounts/$sid/Messages.json";
+
+//     $response = Http::withBasicAuth($sid, $token)->asForm()->post($url, [
+//         'From' => $from,
+//         'To' => 'whatsapp:' . $to,
+//         'Body' => $pesan
+//     ]);
+
+//     return $response->json();
+// }

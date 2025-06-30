@@ -1,0 +1,108 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Bbpbl;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class BbpblSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        Bbpbl::insert([
+           ['length'=> 45.5, 'l'=> -0.3521, 'm'=> 2.541, 's'=> 0.09152, 'min_tiga'=> 2.0, 'min_dua'=> 2.1, 'min_satu'=> 2.3, 'median'=> 2.5, 'satu'=> 2.7, 'dua'=> 2.9, 'tiga'=> 3.1],
+           ['length'=> 46.0, 'l'=> -0.3521, 'm'=> 2.641, 's'=> 0.09122, 'min_tiga'=> 2.1, 'min_dua'=> 2.2, 'min_satu'=> 2.4, 'median'=> 2.6, 'satu'=> 2.8, 'dua'=> 3.0, 'tiga'=> 3.2],
+           ['length'=> 46.5, 'l'=> -0.3521, 'm'=> 2.741, 's'=> 0.09092, 'min_tiga'=> 2.2, 'min_dua'=> 2.3, 'min_satu'=> 2.5, 'median'=> 2.7, 'satu'=> 2.9, 'dua'=> 3.1, 'tiga'=> 3.3],
+           ['length'=> 47.0, 'l'=> -0.3521, 'm'=> 2.841, 's'=> 0.09062, 'min_tiga'=> 2.3, 'min_dua'=> 2.4, 'min_satu'=> 2.6, 'median'=> 2.8, 'satu'=> 3.0, 'dua'=> 3.2, 'tiga'=> 3.4],
+           ['length'=> 47.5, 'l'=> -0.3521, 'm'=> 2.941, 's'=> 0.09032, 'min_tiga'=> 2.4, 'min_dua'=> 2.5, 'min_satu'=> 2.7, 'median'=> 2.9, 'satu'=> 3.1, 'dua'=> 3.3, 'tiga'=> 3.5],
+           ['length'=> 48.0, 'l'=> -0.3521, 'm'=> 3.041, 's'=> 0.09002, 'min_tiga'=> 2.5, 'min_dua'=> 2.6, 'min_satu'=> 2.8, 'median'=> 3.0, 'satu'=> 3.2, 'dua'=> 3.4, 'tiga'=> 3.6],
+           ['length'=> 48.5, 'l'=> -0.3521, 'm'=> 3.141, 's'=> 0.08972, 'min_tiga'=> 2.6, 'min_dua'=> 2.7, 'min_satu'=> 2.9, 'median'=> 3.1, 'satu'=> 3.3, 'dua'=> 3.5, 'tiga'=> 3.7],
+           ['length'=> 49.0, 'l'=> -0.3521, 'm'=> 3.241, 's'=> 0.08942, 'min_tiga'=> 2.7, 'min_dua'=> 2.8, 'min_satu'=> 3.0, 'median'=> 3.2, 'satu'=> 3.4, 'dua'=> 3.6, 'tiga'=> 3.8],
+           ['length'=> 49.5, 'l'=> -0.3521, 'm'=> 3.341, 's'=> 0.08912, 'min_tiga'=> 2.8, 'min_dua'=> 2.9, 'min_satu'=> 3.1, 'median'=> 3.3, 'satu'=> 3.5, 'dua'=> 3.7, 'tiga'=> 3.9],
+           ['length'=> 50.0, 'l'=> -0.3521, 'm'=> 3.441, 's'=> 0.08882, 'min_tiga'=> 2.9, 'min_dua'=> 3.0, 'min_satu'=> 3.2, 'median'=> 3.4, 'satu'=> 3.6, 'dua'=> 3.8, 'tiga'=> 4.0],
+           ['length'=> 50.5, 'l'=> -0.3521, 'm'=> 3.541, 's'=> 0.08852, 'min_tiga'=> 3.0, 'min_dua'=> 3.1, 'min_satu'=> 3.3, 'median'=> 3.5, 'satu'=> 3.7, 'dua'=> 3.9, 'tiga'=> 4.1],
+           ['length'=> 51.0, 'l'=> -0.3521, 'm'=> 3.641, 's'=> 0.08822, 'min_tiga'=> 3.1, 'min_dua'=> 3.2, 'min_satu'=> 3.4, 'median'=> 3.6, 'satu'=> 3.8, 'dua'=> 4.0, 'tiga'=> 4.2],
+           ['length'=> 51.5, 'l'=> -0.3521, 'm'=> 3.741, 's'=> 0.08792, 'min_tiga'=> 3.2, 'min_dua'=> 3.3, 'min_satu'=> 3.5, 'median'=> 3.7, 'satu'=> 3.9, 'dua'=> 4.1, 'tiga'=> 4.3],
+           ['length'=> 52.0, 'l'=> -0.3521, 'm'=> 3.841, 's'=> 0.08762, 'min_tiga'=> 3.3, 'min_dua'=> 3.4, 'min_satu'=> 3.6, 'median'=> 3.8, 'satu'=> 4.0, 'dua'=> 4.2, 'tiga'=> 4.4],
+           ['length'=> 52.5, 'l'=> -0.3521, 'm'=> 3.941, 's'=> 0.08732, 'min_tiga'=> 3.4, 'min_dua'=> 3.5, 'min_satu'=> 3.7, 'median'=> 3.9, 'satu'=> 4.1, 'dua'=> 4.3, 'tiga'=> 4.5],
+           ['length'=> 53.0, 'l'=> -0.3521, 'm'=> 4.041, 's'=> 0.08702, 'min_tiga'=> 3.5, 'min_dua'=> 3.6, 'min_satu'=> 3.8, 'median'=> 4.0, 'satu'=> 4.2, 'dua'=> 4.4, 'tiga'=> 4.6],
+           ['length'=> 53.5, 'l'=> -0.3521, 'm'=> 4.141, 's'=> 0.08672, 'min_tiga'=> 3.6, 'min_dua'=> 3.7, 'min_satu'=> 3.9, 'median'=> 4.1, 'satu'=> 4.3, 'dua'=> 4.5, 'tiga'=> 4.7],
+           ['length'=> 54.0, 'l'=> -0.3521, 'm'=> 4.241, 's'=> 0.08642, 'min_tiga'=> 3.7, 'min_dua'=> 3.8, 'min_satu'=> 4.0, 'median'=> 4.2, 'satu'=> 4.4, 'dua'=> 4.6, 'tiga'=> 4.8],
+           ['length'=> 54.5, 'l'=> -0.3521, 'm'=> 4.341, 's'=> 0.08612, 'min_tiga'=> 3.8, 'min_dua'=> 3.9, 'min_satu'=> 4.1, 'median'=> 4.3, 'satu'=> 4.5, 'dua'=> 4.7, 'tiga'=> 4.9],
+           ['length'=> 55.0, 'l'=> -0.3521, 'm'=> 4.441, 's'=> 0.08582, 'min_tiga'=> 3.9, 'min_dua'=> 4.0, 'min_satu'=> 4.2, 'median'=> 4.4, 'satu'=> 4.6, 'dua'=> 4.8, 'tiga'=> 5.0],
+           ['length'=> 55.5, 'l'=> -0.3521, 'm'=> 4.541, 's'=> 0.08552, 'min_tiga'=> 4.0, 'min_dua'=> 4.1, 'min_satu'=> 4.3, 'median'=> 4.5, 'satu'=> 4.7, 'dua'=> 4.9, 'tiga'=> 5.1],
+           ['length'=> 56.0, 'l'=> -0.3521, 'm'=> 4.641, 's'=> 0.08522, 'min_tiga'=> 4.1, 'min_dua'=> 4.2, 'min_satu'=> 4.4, 'median'=> 4.6, 'satu'=> 4.8, 'dua'=> 5.0, 'tiga'=> 5.2],
+           ['length'=> 56.5, 'l'=> -0.3521, 'm'=> 4.741, 's'=> 0.08492, 'min_tiga'=> 4.2, 'min_dua'=> 4.3, 'min_satu'=> 4.5, 'median'=> 4.7, 'satu'=> 4.9, 'dua'=> 5.1, 'tiga'=> 5.3],
+           ['length'=> 57.0, 'l'=> -0.3521, 'm'=> 4.841, 's'=> 0.08462, 'min_tiga'=> 4.3, 'min_dua'=> 4.4, 'min_satu'=> 4.6, 'median'=> 4.8, 'satu'=> 5.0, 'dua'=> 5.2, 'tiga'=> 5.4],
+           ['length'=> 57.5, 'l'=> -0.3521, 'm'=> 4.941, 's'=> 0.08432, 'min_tiga'=> 4.4, 'min_dua'=> 4.5, 'min_satu'=> 4.7, 'median'=> 4.9, 'satu'=> 5.1, 'dua'=> 5.3, 'tiga'=> 5.5],
+           ['length'=> 58.0, 'l'=> -0.3521, 'm'=> 5.041, 's'=> 0.08402, 'min_tiga'=> 4.5, 'min_dua'=> 4.6, 'min_satu'=> 4.8, 'median'=> 5.0, 'satu'=> 5.2, 'dua'=> 5.4, 'tiga'=> 5.6],
+           ['length'=> 58.5, 'l'=> -0.3521, 'm'=> 5.141, 's'=> 0.08372, 'min_tiga'=> 4.6, 'min_dua'=> 4.7, 'min_satu'=> 4.9, 'median'=> 5.1, 'satu'=> 5.3, 'dua'=> 5.5, 'tiga'=> 5.7],
+           ['length'=> 59.0, 'l'=> -0.3521, 'm'=> 5.241, 's'=> 0.08342, 'min_tiga'=> 4.7, 'min_dua'=> 4.8, 'min_satu'=> 5.0, 'median'=> 5.2, 'satu'=> 5.4, 'dua'=> 5.6, 'tiga'=> 5.8],
+           ['length'=> 59.5, 'l'=> -0.3521, 'm'=> 5.341, 's'=> 0.08312, 'min_tiga'=> 4.8, 'min_dua'=> 4.9, 'min_satu'=> 5.1, 'median'=> 5.3, 'satu'=> 5.5, 'dua'=> 5.7, 'tiga'=> 5.9],
+           ['length'=> 60.0, 'l'=> -0.3521, 'm'=> 5.441, 's'=> 0.08282, 'min_tiga'=> 4.9, 'min_dua'=> 5.0, 'min_satu'=> 5.2, 'median'=> 5.4, 'satu'=> 5.6, 'dua'=> 5.8, 'tiga'=> 6.0],
+           ['length'=> 60.5, 'l'=> -0.3521, 'm'=> 5.541, 's'=> 0.08252, 'min_tiga'=> 5.0, 'min_dua'=> 5.1, 'min_satu'=> 5.3, 'median'=> 5.5, 'satu'=> 5.7, 'dua'=> 5.9, 'tiga'=> 6.1],
+           ['length'=> 61.0, 'l'=> -0.3521, 'm'=> 5.641, 's'=> 0.08222, 'min_tiga'=> 5.1, 'min_dua'=> 5.2, 'min_satu'=> 5.4, 'median'=> 5.6, 'satu'=> 5.8, 'dua'=> 6.0, 'tiga'=> 6.2],
+           ['length'=> 61.5, 'l'=> -0.3521, 'm'=> 5.741, 's'=> 0.08192, 'min_tiga'=> 5.2, 'min_dua'=> 5.3, 'min_satu'=> 5.5, 'median'=> 5.7, 'satu'=> 5.9, 'dua'=> 6.1, 'tiga'=> 6.3],
+           ['length'=> 62.0, 'l'=> -0.3521, 'm'=> 5.841, 's'=> 0.08162, 'min_tiga'=> 5.3, 'min_dua'=> 5.4, 'min_satu'=> 5.6, 'median'=> 5.8, 'satu'=> 6.0, 'dua'=> 6.2, 'tiga'=> 6.4],
+           ['length'=> 62.5, 'l'=> -0.3521, 'm'=> 5.941, 's'=> 0.08132, 'min_tiga'=> 5.4, 'min_dua'=> 5.5, 'min_satu'=> 5.7, 'median'=> 5.9, 'satu'=> 6.1, 'dua'=> 6.3, 'tiga'=> 6.5],
+           ['length'=> 63.0, 'l'=> -0.3521, 'm'=> 6.041, 's'=> 0.08102, 'min_tiga'=> 5.5, 'min_dua'=> 5.6, 'min_satu'=> 5.8, 'median'=> 6.0, 'satu'=> 6.2, 'dua'=> 6.4, 'tiga'=> 6.6],
+           ['length'=> 63.5, 'l'=> -0.3521, 'm'=> 6.141, 's'=> 0.08072, 'min_tiga'=> 5.6, 'min_dua'=> 5.7, 'min_satu'=> 5.9, 'median'=> 6.1, 'satu'=> 6.3, 'dua'=> 6.5, 'tiga'=> 6.7],
+           ['length'=> 64.0, 'l'=> -0.3521, 'm'=> 6.241, 's'=> 0.08042, 'min_tiga'=> 5.7, 'min_dua'=> 5.8, 'min_satu'=> 6.0, 'median'=> 6.2, 'satu'=> 6.4, 'dua'=> 6.6, 'tiga'=> 6.8],
+           ['length'=> 64.5, 'l'=> -0.3521, 'm'=> 6.341, 's'=> 0.08012, 'min_tiga'=> 5.8, 'min_dua'=> 5.9, 'min_satu'=> 6.1, 'median'=> 6.3, 'satu'=> 6.5, 'dua'=> 6.7, 'tiga'=> 6.9],
+           ['length'=> 65.0, 'l'=> -0.3521, 'm'=> 6.441, 's'=> 0.07982, 'min_tiga'=> 5.9, 'min_dua'=> 6.0, 'min_satu'=> 6.2, 'median'=> 6.4, 'satu'=> 6.6, 'dua'=> 6.8, 'tiga'=> 7.0],
+           ['length'=> 65.5, 'l'=> -0.3521, 'm'=> 6.541, 's'=> 0.07952, 'min_tiga'=> 6.0, 'min_dua'=> 6.1, 'min_satu'=> 6.3, 'median'=> 6.5, 'satu'=> 6.7, 'dua'=> 6.9, 'tiga'=> 7.1],
+           ['length'=> 66.0, 'l'=> -0.3521, 'm'=> 6.641, 's'=> 0.07922, 'min_tiga'=> 6.1, 'min_dua'=> 6.2, 'min_satu'=> 6.4, 'median'=> 6.6, 'satu'=> 6.8, 'dua'=> 7.0, 'tiga'=> 7.2],
+           ['length'=> 66.5, 'l'=> -0.3521, 'm'=> 6.741, 's'=> 0.07892, 'min_tiga'=> 6.2, 'min_dua'=> 6.3, 'min_satu'=> 6.5, 'median'=> 6.7, 'satu'=> 6.9, 'dua'=> 7.1, 'tiga'=> 7.3],
+           ['length'=> 67.0, 'l'=> -0.3521, 'm'=> 6.841, 's'=> 0.07862, 'min_tiga'=> 6.3, 'min_dua'=> 6.4, 'min_satu'=> 6.6, 'median'=> 6.8, 'satu'=> 7.0, 'dua'=> 7.2, 'tiga'=> 7.4],
+           ['length'=> 67.5, 'l'=> -0.3521, 'm'=> 6.941, 's'=> 0.07832, 'min_tiga'=> 6.4, 'min_dua'=> 6.5, 'min_satu'=> 6.7, 'median'=> 6.9, 'satu'=> 7.1, 'dua'=> 7.3, 'tiga'=> 7.5],
+           ['length'=> 68.0, 'l'=> -0.3521, 'm'=> 7.041, 's'=> 0.07802, 'min_tiga'=> 6.5, 'min_dua'=> 6.6, 'min_satu'=> 6.8, 'median'=> 7.0, 'satu'=> 7.2, 'dua'=> 7.4, 'tiga'=> 7.6],
+           ['length'=> 68.5, 'l'=> -0.3521, 'm'=> 7.141, 's'=> 0.07772, 'min_tiga'=> 6.6, 'min_dua'=> 6.7, 'min_satu'=> 6.9, 'median'=> 7.1, 'satu'=> 7.3, 'dua'=> 7.5, 'tiga'=> 7.7],
+           ['length'=> 69.0, 'l'=> -0.3521, 'm'=> 7.241, 's'=> 0.07742, 'min_tiga'=> 6.7, 'min_dua'=> 6.8, 'min_satu'=> 7.0, 'median'=> 7.2, 'satu'=> 7.4, 'dua'=> 7.6, 'tiga'=> 7.8],
+           ['length'=> 69.5, 'l'=> -0.3521, 'm'=> 7.341, 's'=> 0.07712, 'min_tiga'=> 6.8, 'min_dua'=> 6.9, 'min_satu'=> 7.1, 'median'=> 7.3, 'satu'=> 7.5, 'dua'=> 7.7, 'tiga'=> 7.9],
+           ['length'=> 70.0, 'l'=> -0.3521, 'm'=> 7.441, 's'=> 0.07682, 'min_tiga'=> 6.9, 'min_dua'=> 7.0, 'min_satu'=> 7.2, 'median'=> 7.4, 'satu'=> 7.6, 'dua'=> 7.8, 'tiga'=> 8.0],
+           ['length'=> 70.5, 'l'=> -0.3521, 'm'=> 7.541, 's'=> 0.07652, 'min_tiga'=> 7.0, 'min_dua'=> 7.1, 'min_satu'=> 7.3, 'median'=> 7.5, 'satu'=> 7.7, 'dua'=> 7.9, 'tiga'=> 8.1],
+           ['length'=> 71.0, 'l'=> -0.3521, 'm'=> 7.641, 's'=> 0.07622, 'min_tiga'=> 7.1, 'min_dua'=> 7.2, 'min_satu'=> 7.4, 'median'=> 7.6, 'satu'=> 7.8, 'dua'=> 8.0, 'tiga'=> 8.2],
+           ['length'=> 71.5, 'l'=> -0.3521, 'm'=> 7.741, 's'=> 0.07592, 'min_tiga'=> 7.2, 'min_dua'=> 7.3, 'min_satu'=> 7.5, 'median'=> 7.7, 'satu'=> 7.9, 'dua'=> 8.1, 'tiga'=> 8.3],
+           ['length'=> 72.0, 'l'=> -0.3521, 'm'=> 7.841, 's'=> 0.07562, 'min_tiga'=> 7.3, 'min_dua'=> 7.4, 'min_satu'=> 7.6, 'median'=> 7.8, 'satu'=> 8.0, 'dua'=> 8.2, 'tiga'=> 8.4],
+           ['length'=> 72.5, 'l'=> -0.3521, 'm'=> 7.941, 's'=> 0.07532, 'min_tiga'=> 7.4, 'min_dua'=> 7.5, 'min_satu'=> 7.7, 'median'=> 7.9, 'satu'=> 8.1, 'dua'=> 8.3, 'tiga'=> 8.5],
+           ['length'=> 73.0, 'l'=> -0.3521, 'm'=> 8.041, 's'=> 0.07502, 'min_tiga'=> 7.5, 'min_dua'=> 7.6, 'min_satu'=> 7.8, 'median'=> 8.0, 'satu'=> 8.2, 'dua'=> 8.4, 'tiga'=> 8.6],
+           ['length'=> 73.5, 'l'=> -0.3521, 'm'=> 8.141, 's'=> 0.07472, 'min_tiga'=> 7.6, 'min_dua'=> 7.7, 'min_satu'=> 7.9, 'median'=> 8.1, 'satu'=> 8.3, 'dua'=> 8.5, 'tiga'=> 8.7],
+           ['length'=> 74.0, 'l'=> -0.3521, 'm'=> 8.241, 's'=> 0.07442, 'min_tiga'=> 7.7, 'min_dua'=> 7.8, 'min_satu'=> 8.0, 'median'=> 8.2, 'satu'=> 8.4, 'dua'=> 8.6, 'tiga'=> 8.8],
+           ['length'=> 74.5, 'l'=> -0.3521, 'm'=> 8.341, 's'=> 0.07412, 'min_tiga'=> 7.8, 'min_dua'=> 7.9, 'min_satu'=> 8.1, 'median'=> 8.3, 'satu'=> 8.5, 'dua'=> 8.7, 'tiga'=> 8.9],
+           ['length'=> 75.0, 'l'=> -0.3521, 'm'=> 8.441, 's'=> 0.07382, 'min_tiga'=> 7.9, 'min_dua'=> 8.0, 'min_satu'=> 8.2, 'median'=> 8.4, 'satu'=> 8.6, 'dua'=> 8.8, 'tiga'=> 9.0],
+           ['length'=> 75.5, 'l'=> -0.3521, 'm'=> 8.541, 's'=> 0.07352, 'min_tiga'=> 8.0, 'min_dua'=> 8.1, 'min_satu'=> 8.3, 'median'=> 8.5, 'satu'=> 8.7, 'dua'=> 8.9, 'tiga'=> 9.1],
+           ['length'=> 76.0, 'l'=> -0.3521, 'm'=> 8.641, 's'=> 0.07322, 'min_tiga'=> 8.1, 'min_dua'=> 8.2, 'min_satu'=> 8.4, 'median'=> 8.6, 'satu'=> 8.8, 'dua'=> 9.0, 'tiga'=> 9.2],
+           ['length'=> 76.5, 'l'=> -0.3521, 'm'=> 8.741, 's'=> 0.07292, 'min_tiga'=> 8.2, 'min_dua'=> 8.3, 'min_satu'=> 8.5, 'median'=> 8.7, 'satu'=> 8.9, 'dua'=> 9.1, 'tiga'=> 9.3],
+           ['length'=> 77.0, 'l'=> -0.3521, 'm'=> 8.841, 's'=> 0.07262, 'min_tiga'=> 8.3, 'min_dua'=> 8.4, 'min_satu'=> 8.6, 'median'=> 8.8, 'satu'=> 9.0, 'dua'=> 9.2, 'tiga'=> 9.4],
+           ['length'=> 77.5, 'l'=> -0.3521, 'm'=> 8.941, 's'=> 0.07232, 'min_tiga'=> 8.4, 'min_dua'=> 8.5, 'min_satu'=> 8.7, 'median'=> 8.9, 'satu'=> 9.1, 'dua'=> 9.3, 'tiga'=> 9.5],
+           ['length'=> 78.0, 'l'=> -0.3521, 'm'=> 9.041, 's'=> 0.07202, 'min_tiga'=> 8.5, 'min_dua'=> 8.6, 'min_satu'=> 8.8, 'median'=> 9.0, 'satu'=> 9.2, 'dua'=> 9.4, 'tiga'=> 9.6],
+           ['length'=> 78.5, 'l'=> -0.3521, 'm'=> 9.141, 's'=> 0.07172, 'min_tiga'=> 8.6, 'min_dua'=> 8.7, 'min_satu'=> 8.9, 'median'=> 9.1, 'satu'=> 9.3, 'dua'=> 9.5, 'tiga'=> 9.7],
+           ['length'=> 79.0, 'l'=> -0.3521, 'm'=> 9.241, 's'=> 0.07142, 'min_tiga'=> 8.7, 'min_dua'=> 8.8, 'min_satu'=> 9.0, 'median'=> 9.2, 'satu'=> 9.4, 'dua'=> 9.6, 'tiga'=> 9.8],
+           ['length'=> 79.5, 'l'=> -0.3521, 'm'=> 9.341, 's'=> 0.07112, 'min_tiga'=> 8.8, 'min_dua'=> 8.9, 'min_satu'=> 9.1, 'median'=> 9.3, 'satu'=> 9.5, 'dua'=> 9.7, 'tiga'=> 9.9],
+           ['length'=> 80.0, 'l'=> -0.3521, 'm'=> 9.441, 's'=> 0.07082, 'min_tiga'=> 8.9, 'min_dua'=> 9.0, 'min_satu'=> 9.2, 'median'=> 9.4, 'satu'=> 9.6, 'dua'=> 9.8, 'tiga'=> 10.0],
+           ['length'=> 80.5, 'l'=> -0.3521, 'm'=> 9.541, 's'=> 0.07052, 'min_tiga'=> 9.0, 'min_dua'=> 9.1, 'min_satu'=> 9.3, 'median'=> 9.5, 'satu'=> 9.7, 'dua'=> 9.9, 'tiga'=> 10.1],
+           ['length'=> 81.0, 'l'=> -0.3521, 'm'=> 9.641, 's'=> 0.07022, 'min_tiga'=> 9.1, 'min_dua'=> 9.2, 'min_satu'=> 9.4, 'median'=> 9.6, 'satu'=> 9.8, 'dua'=> 10.0, 'tiga'=> 10.2],
+           ['length'=> 81.5, 'l'=> -0.3521, 'm'=> 9.741, 's'=> 0.06992, 'min_tiga'=> 9.2, 'min_dua'=> 9.3, 'min_satu'=> 9.5, 'median'=> 9.7, 'satu'=> 9.9, 'dua'=> 10.1, 'tiga'=> 10.3],
+           ['length'=> 82.0, 'l'=> -0.3521, 'm'=> 9.841, 's'=> 0.06962, 'min_tiga'=> 9.3, 'min_dua'=> 9.4, 'min_satu'=> 9.6, 'median'=> 9.8, 'satu'=> 10.0, 'dua'=> 10.2, 'tiga'=> 10.4],
+           ['length'=> 82.5, 'l'=> -0.3521, 'm'=> 9.941, 's'=> 0.06932, 'min_tiga'=> 9.4, 'min_dua'=> 9.5, 'min_satu'=> 9.7, 'median'=> 9.9, 'satu'=> 10.1, 'dua'=> 10.3, 'tiga'=> 10.5],
+           ['length'=> 83.0, 'l'=> -0.3521, 'm'=> 10.041, 's'=> 0.06902, 'min_tiga'=> 9.5, 'min_dua'=> 9.6, 'min_satu'=> 9.8, 'median'=> 10.0, 'satu'=> 10.2, 'dua'=> 10.4, 'tiga'=> 10.6],
+           ['length'=> 83.5, 'l'=> -0.3521, 'm'=> 10.141, 's'=> 0.06872, 'min_tiga'=> 9.6, 'min_dua'=> 9.7, 'min_satu'=> 9.9, 'median'=> 10.1, 'satu'=> 10.3, 'dua'=> 10.5, 'tiga'=> 10.7],
+           ['length'=> 84.0, 'l'=> -0.3521, 'm'=> 10.241, 's'=> 0.06842, 'min_tiga'=> 9.7, 'min_dua'=> 9.8, 'min_satu'=> 10.0, 'median'=> 10.2, 'satu'=> 10.4, 'dua'=> 10.6, 'tiga'=> 10.8],
+           ['length'=> 84.5, 'l'=> -0.3521, 'm'=> 10.341, 's'=> 0.06812, 'min_tiga'=> 9.8, 'min_dua'=> 9.9, 'min_satu'=> 10.1, 'median'=> 10.3, 'satu'=> 10.5, 'dua'=> 10.7, 'tiga'=> 10.9],
+           ['length'=> 85.0, 'l'=> -0.3521, 'm'=> 10.441, 's'=> 0.06782, 'min_tiga'=> 9.9, 'min_dua'=> 10.0, 'min_satu'=> 10.2, 'median'=> 10.4, 'satu'=> 10.6, 'dua'=> 10.8, 'tiga'=> 11.0],
+           ['length'=> 85.5, 'l'=> -0.3521, 'm'=> 10.541, 's'=> 0.06752, 'min_tiga'=> 10.0, 'min_dua'=> 10.1, 'min_satu'=> 10.3, 'median'=> 10.5, 'satu'=> 10.7, 'dua'=> 10.9, 'tiga'=> 11.1],
+           ['length'=> 86.0, 'l'=> -0.3521, 'm'=> 10.641, 's'=> 0.06722, 'min_tiga'=> 10.1, 'min_dua'=> 10.2, 'min_satu'=> 10.4, 'median'=> 10.6, 'satu'=> 10.8, 'dua'=> 11.0, 'tiga'=> 11.2],
+           ['length'=> 86.5, 'l'=> -0.3521, 'm'=> 10.741, 's'=> 0.06692, 'min_tiga'=> 10.2, 'min_dua'=> 10.3, 'min_satu'=> 10.5, 'median'=> 10.7, 'satu'=> 10.9, 'dua'=> 11.1, 'tiga'=> 11.3],
+           ['length'=> 87.0, 'l'=> -0.3521, 'm'=> 10.841, 's'=> 0.06662, 'min_tiga'=> 10.3, 'min_dua'=> 10.4, 'min_satu'=> 10.6, 'median'=> 10.8, 'satu'=> 11.0, 'dua'=> 11.2, 'tiga'=> 11.4],
+           ['length'=> 87.5, 'l'=> -0.3521, 'm'=> 10.941, 's'=> 0.06632, 'min_tiga'=> 10.4, 'min_dua'=> 10.5, 'min_satu'=> 10.7, 'median'=> 10.9, 'satu'=> 11.1, 'dua'=> 11.3, 'tiga'=> 11.5],
+           ['length'=> 88.0, 'l'=> -0.3521, 'm'=> 11.041, 's'=> 0.06602, 'min_tiga'=> 10.5, 'min_dua'=> 10.6, 'min_satu'=> 10.8, 'median'=> 11.0, 'satu'=> 11.2, 'dua'=> 11.4, 'tiga'=> 11.6],
+           ['length'=> 88.5, 'l'=> -0.3521, 'm'=> 11.141, 's'=> 0.06572, 'min_tiga'=> 10.6, 'min_dua'=> 10.7, 'min_satu'=> 10.9, 'median'=> 11.1, 'satu'=> 11.3, 'dua'=> 11.5, 'tiga'=> 11.7],
+           ['length'=> 89.0, 'l'=> -0.3521, 'm'=> 11.241, 's'=> 0.06542, 'min_tiga'=> 10.7, 'min_dua'=> 10.8, 'min_satu'=> 11.0, 'median'=> 11.2, 'satu'=> 11.4, 'dua'=> 11.6, 'tiga'=> 11.8],
+           ['length'=> 89.5, 'l'=> -0.3521, 'm'=> 11.341, 's'=> 0.06512, 'min_tiga'=> 10.8, 'min_dua'=> 10.9, 'min_satu'=> 11.1, 'median'=> 11.3, 'satu'=> 11.5, 'dua'=> 11.7, 'tiga'=> 11.9]
+        ]);
+    }
+}

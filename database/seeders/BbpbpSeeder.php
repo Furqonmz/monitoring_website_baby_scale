@@ -1,0 +1,107 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Bbpbp;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class BbpbpSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+    Bbpbp::insert([
+        ['length' => 45.0, 'l' => -0.3833, 'm' => 2.4607, 's' => 0.09029, 'min_tiga' => 1.9, 'min_dua' => 2.1, 'min_satu' => 2.3, 'median' => 2.5, 'satu' => 2.7, 'dua' => 3.0, 'tiga' => 3.3],
+        ['length' => 45.5, 'l' => -0.3833, 'm' => 2.5457, 's' => 0.09033, 'min_tiga' => 2.0, 'min_dua' => 2.1, 'min_satu' => 2.3, 'median' => 2.5, 'satu' => 2.8, 'dua' => 3.1, 'tiga' => 3.4],
+        ['length' => 46.0, 'l' => -0.3833, 'm' => 2.6306, 's' => 0.09037, 'min_tiga' => 2.0, 'min_dua' => 2.2, 'min_satu' => 2.4, 'median' => 2.6, 'satu' => 2.9, 'dua' => 3.2, 'tiga' => 3.5],
+        ['length' => 46.5, 'l' => -0.3833, 'm' => 2.7155, 's' => 0.0904, 'min_tiga' => 2.1, 'min_dua' => 2.3, 'min_satu' => 2.5, 'median' => 2.7, 'satu' => 3.0, 'dua' => 3.3, 'tiga' => 3.6],
+        ['length' => 47.0, 'l' => -0.3833, 'm' => 2.8007, 's' => 0.09044, 'min_tiga' => 2.2, 'min_dua' => 2.4, 'min_satu' => 2.6, 'median' => 2.8, 'satu' => 3.1, 'dua' => 3.4, 'tiga' => 3.7],
+        ['length' => 47.5, 'l' => -0.3833, 'm' => 2.8867, 's' => 0.09048, 'min_tiga' => 2.2, 'min_dua' => 2.4, 'min_satu' => 2.6, 'median' => 2.9, 'satu' => 3.2, 'dua' => 3.5, 'tiga' => 3.8],
+        ['length' => 48.0, 'l' => -0.3833, 'm' => 2.9741, 's' => 0.09052, 'min_tiga' => 2.3, 'min_dua' => 2.5, 'min_satu' => 2.7, 'median' => 3.0, 'satu' => 3.3, 'dua' => 3.6, 'tiga' => 4.0],
+        ['length' => 48.5, 'l' => -0.3833, 'm' => 3.0636, 's' => 0.09056, 'min_tiga' => 2.4, 'min_dua' => 2.6, 'min_satu' => 2.8, 'median' => 3.1, 'satu' => 3.4, 'dua' => 3.7, 'tiga' => 4.1],
+        ['length' => 49.0, 'l' => -0.3833, 'm' => 3.156, 's' => 0.0906, 'min_tiga' => 2.4, 'min_dua' => 2.6, 'min_satu' => 2.9, 'median' => 3.2, 'satu' => 3.5, 'dua' => 3.8, 'tiga' => 4.2],
+        ['length' => 49.5, 'l' => -0.3833, 'm' => 3.252, 's' => 0.09064, 'min_tiga' => 2.5, 'min_dua' => 2.7, 'min_satu' => 3.0, 'median' => 3.3, 'satu' => 3.6, 'dua' => 3.9, 'tiga' => 4.3],
+        ['length' => 50.0, 'l' => -0.3833, 'm' => 3.3518, 's' => 0.09068, 'min_tiga' => 2.6, 'min_dua' => 2.8, 'min_satu' => 3.1, 'median' => 3.4, 'satu' => 3.7, 'dua' => 4.0, 'tiga' => 4.5],
+        ['length' => 50.5, 'l' => -0.3833, 'm' => 3.4557, 's' => 0.09072, 'min_tiga' => 2.7, 'min_dua' => 2.9, 'min_satu' => 3.2, 'median' => 3.5, 'satu' => 3.8, 'dua' => 4.2, 'tiga' => 4.6],
+        ['length' => 51.0, 'l' => -0.3833, 'm' => 3.5636, 's' => 0.09076, 'min_tiga' => 2.8, 'min_dua' => 3.0, 'min_satu' => 3.3, 'median' => 3.6, 'satu' => 3.9, 'dua' => 4.3, 'tiga' => 4.8],
+        ['length' => 51.5, 'l' => -0.3833, 'm' => 3.6754, 's' => 0.0908, 'min_tiga' => 2.8, 'min_dua' => 3.1, 'min_satu' => 3.4, 'median' => 3.7, 'satu' => 4.0, 'dua' => 4.4, 'tiga' => 4.9],
+        ['length' => 52.0, 'l' => -0.3833, 'm' => 3.7911, 's' => 0.09085, 'min_tiga' => 2.9, 'min_dua' => 3.2, 'min_satu' => 3.5, 'median' => 3.8, 'satu' => 4.2, 'dua' => 4.6, 'tiga' => 5.1],
+        ['length' => 52.5, 'l' => -0.3833, 'm' => 3.9105, 's' => 0.09089, 'min_tiga' => 3.0, 'min_dua' => 3.3, 'min_satu' => 3.6, 'median' => 3.9, 'satu' => 4.3, 'dua' => 4.7, 'tiga' => 5.2],
+        ['length' => 53.0, 'l' => -0.3833, 'm' => 4.0332, 's' => 0.09093, 'min_tiga' => 3.1, 'min_dua' => 3.4, 'min_satu' => 3.7, 'median' => 4.0, 'satu' => 4.4, 'dua' => 4.9, 'tiga' => 5.4],
+        ['length' => 53.5, 'l' => -0.3833, 'm' => 4.1591, 's' => 0.09098, 'min_tiga' => 3.2, 'min_dua' => 3.5, 'min_satu' => 3.8, 'median' => 4.2, 'satu' => 4.6, 'dua' => 5.0, 'tiga' => 5.5],
+        ['length' => 54.0, 'l' => -0.3833, 'm' => 4.2875, 's' => 0.09102, 'min_tiga' => 3.3, 'min_dua' => 3.6, 'min_satu' => 3.9, 'median' => 4.3, 'satu' => 4.7, 'dua' => 5.2, 'tiga' => 5.7],
+        ['length' => 54.5, 'l' => -0.3833, 'm' => 4.4179, 's' => 0.09106, 'min_tiga' => 3.4, 'min_dua' => 3.7, 'min_satu' => 4.0, 'median' => 4.4, 'satu' => 4.8, 'dua' => 5.3, 'tiga' => 5.9],
+        ['length' => 55.0, 'l' => -0.3833, 'm' => 4.5498, 's' => 0.0911, 'min_tiga' => 3.5, 'min_dua' => 3.8, 'min_satu' => 4.2, 'median' => 4.5, 'satu' => 5.0, 'dua' => 5.5, 'tiga' => 6.1],
+        ['length' => 55.5, 'l' => -0.3833, 'm' => 4.6827, 's' => 0.09114, 'min_tiga' => 3.6, 'min_dua' => 3.9, 'min_satu' => 4.3, 'median' => 4.7, 'satu' => 5.1, 'dua' => 5.7, 'tiga' => 6.3],
+        ['length' => 56.0, 'l' => -0.3833, 'm' => 4.8162, 's' => 0.09118, 'min_tiga' => 3.7, 'min_dua' => 4.0, 'min_satu' => 4.4, 'median' => 4.8, 'satu' => 5.3, 'dua' => 5.8, 'tiga' => 6.4],
+        ['length' => 56.5, 'l' => -0.3833, 'm' => 4.95, 's' => 0.09121, 'min_tiga' => 3.8, 'min_dua' => 4.1, 'min_satu' => 4.5, 'median' => 5.0, 'satu' => 5.4, 'dua' => 6.0, 'tiga' => 6.6],
+        ['length' => 56.5, 'l' => -0.3833, 'm' => 4.9500, 's' => 0.09121, 'min_tiga' => 3.8, 'min_dua' => 4.1, 'min_satu' => 4.5, 'median' => 5.0, 'satu' => 5.4, 'dua' => 6.0, 'tiga' => 6.6],
+        ['length' => 57.0, 'l' => -0.3833, 'm' => 5.0837, 's' => 0.09125, 'min_tiga' => 3.9, 'min_dua' => 4.3, 'min_satu' => 4.6, 'median' => 5.1, 'satu' => 5.6, 'dua' => 6.1, 'tiga' => 6.8],
+        ['length' => 57.5, 'l' => -0.3833, 'm' => 5.2173, 's' => 0.09128, 'min_tiga' => 4.0, 'min_dua' => 4.4, 'min_satu' => 4.8, 'median' => 5.2, 'satu' => 5.7, 'dua' => 6.3, 'tiga' => 7.0],
+        ['length' => 58.0, 'l' => -0.3833, 'm' => 5.3507, 's' => 0.09130, 'min_tiga' => 4.1, 'min_dua' => 4.5, 'min_satu' => 4.9, 'median' => 5.4, 'satu' => 5.9, 'dua' => 6.5, 'tiga' => 7.1],
+        ['length' => 58.5, 'l' => -0.3833, 'm' => 5.4834, 's' => 0.09132, 'min_tiga' => 4.2, 'min_dua' => 4.6, 'min_satu' => 5.0, 'median' => 5.5, 'satu' => 6.0, 'dua' => 6.6, 'tiga' => 7.3],            ['length' => 59.0, 'l' => -0.3833, 'm' => 5.6151, 's' => 0.09134, 'min_tiga' => 4.3, 'min_dua' => 4.7, 'min_satu' => 5.1, 'median' => 5.6, 'satu' => 6.2, 'dua' => 6.8, 'tiga' => 7.5],
+        ['length' => 59.5, 'l' => -0.3833, 'm' => 5.7454, 's' => 0.09135, 'min_tiga' => 4.4, 'min_dua' => 4.8, 'min_satu' => 5.3, 'median' => 5.7, 'satu' => 6.3, 'dua' => 6.9, 'tiga' => 7.7],
+        ['length' => 60.0, 'l' => -0.3833, 'm' => 5.8742, 's' => 0.09136, 'min_tiga' => 4.5, 'min_dua' => 4.9, 'min_satu' => 5.4, 'median' => 5.9, 'satu' => 6.4, 'dua' => 7.1, 'tiga' => 7.8],
+        ['length' => 60.5, 'l' => -0.3833, 'm' => 6.0014, 's' => 0.09137, 'min_tiga' => 4.6, 'min_dua' => 5.0, 'min_satu' => 5.5, 'median' => 6.0, 'satu' => 6.6, 'dua' => 7.3, 'tiga' => 8.0],
+        ['length' => 61.0, 'l' => -0.3833, 'm' => 6.1270, 's' => 0.09137, 'min_tiga' => 4.7, 'min_dua' => 5.1, 'min_satu' => 5.6, 'median' => 6.1, 'satu' => 6.7, 'dua' => 7.4, 'tiga' => 8.2],
+        ['length' => 61.5, 'l' => -0.3833, 'm' => 6.2511, 's' => 0.09136, 'min_tiga' => 4.8, 'min_dua' => 5.2, 'min_satu' => 5.7, 'median' => 6.3, 'satu' => 6.9, 'dua' => 7.6, 'tiga' => 8.4],
+        ['length' => 62.0, 'l' => -0.3833, 'm' => 6.3738, 's' => 0.09135, 'min_tiga' => 4.9, 'min_dua' => 5.3, 'min_satu' => 5.8, 'median' => 6.4, 'satu' => 7.0, 'dua' => 7.7, 'tiga' => 8.5],
+        ['length' => 62.5, 'l' => -0.3833, 'm' => 6.4948, 's' => 0.09133, 'min_tiga' => 5.0, 'min_dua' => 5.4, 'min_satu' => 5.9, 'median' => 6.5, 'satu' => 7.1, 'dua' => 7.8, 'tiga' => 8.7],
+        ['length' => 63.0, 'l' => -0.3833, 'm' => 6.6144, 's' => 0.09131, 'min_tiga' => 5.1, 'min_dua' => 5.5, 'min_satu' => 6.0, 'median' => 6.6, 'satu' => 7.3, 'dua' => 8.0, 'tiga' => 8.8],
+        ['length' => 63.5, 'l' => -0.3833, 'm' => 6.7328, 's' => 0.09129, 'min_tiga' => 5.2, 'min_dua' => 5.6, 'min_satu' => 6.2, 'median' => 6.7, 'satu' => 7.4, 'dua' => 8.1, 'tiga' => 9.0],
+        ['length' => 64.0, 'l' => -0.3833, 'm' => 6.8501, 's' => 0.09126, 'min_tiga' => 5.3, 'min_dua' => 5.7, 'min_satu' => 6.3, 'median' => 6.9, 'satu' => 7.5, 'dua' => 8.3, 'tiga' => 9.1],
+        ['length' => 64.5, 'l' => -0.3833, 'm' => 6.9662, 's' => 0.09123, 'min_tiga' => 5.4, 'min_dua' => 5.8, 'min_satu' => 6.4, 'median' => 7.0, 'satu' => 7.6, 'dua' => 8.4, 'tiga' => 9.3],
+        ['length' => 65.0, 'l' => -0.3833, 'm' => 7.0812, 's' => 0.09119, 'min_tiga' => 5.5, 'min_dua' => 5.9, 'min_satu' => 6.5, 'median' => 7.1, 'satu' => 7.8, 'dua' => 8.6, 'tiga' => 9.5],
+        ['length' => 65.5, 'l' => -0.3833, 'm' => 7.1950, 's' => 0.09115, 'min_tiga' => 5.5, 'min_dua' => 6.0, 'min_satu' => 6.6, 'median' => 7.2, 'satu' => 7.9, 'dua' => 8.7, 'tiga' => 9.6],
+        ['length' => 66.0, 'l' => -0.3833, 'm' => 7.3076, 's' => 0.09110, 'min_tiga' => 5.6, 'min_dua' => 6.1, 'min_satu' => 6.7, 'median' => 7.3, 'satu' => 8.0, 'dua' => 8.8, 'tiga' => 9.8],
+        ['length' => 66.5, 'l' => -0.3833, 'm' => 7.4189, 's' => 0.09106, 'min_tiga' => 5.7, 'min_dua' => 6.2, 'min_satu' => 6.8, 'median' => 7.4, 'satu' => 8.1, 'dua' => 9.0, 'tiga' => 9.9],
+        ['length' => 67.0, 'l' => -0.3833, 'm' => 7.5288, 's' => 0.09101, 'min_tiga' => 5.8, 'min_dua' => 6.3, 'min_satu' => 6.9, 'median' => 7.5, 'satu' => 8.3, 'dua' => 9.1, 'tiga' => 10.0],
+        ['length' => 67.5, 'l' => -0.3833, 'm' => 7.6375, 's' => 0.09096, 'min_tiga' => 5.9, 'min_dua' => 6.4, 'min_satu' => 7.0, 'median' => 7.6, 'satu' => 8.4, 'dua' => 9.2, 'tiga' => 10.2],
+        ['length' => 68.0, 'l' => -0.3833, 'm' => 7.7448, 's' => 0.09090, 'min_tiga' => 6.0, 'min_dua' => 6.5, 'min_satu' => 7.1, 'median' => 7.7, 'satu' => 8.5, 'dua' => 9.4, 'tiga' => 10.3],
+        ['length' => 68.5, 'l' => -0.3833, 'm' => 7.8509, 's' => 0.09085, 'min_tiga' => 6.1, 'min_dua' => 6.6, 'min_satu' => 7.2, 'median' => 7.9, 'satu' => 8.6, 'dua' => 9.5, 'tiga' => 10.5],
+        ['length' => 69.0, 'l' => -0.3833, 'm' => 7.9559, 's' => 0.09079, 'min_tiga' => 6.1, 'min_dua' => 6.7, 'min_satu' => 7.3, 'median' => 8.0, 'satu' => 8.7, 'dua' => 9.6, 'tiga' => 10.6],
+        ['length' => 69.5, 'l' => -0.3833, 'm' => 8.0599, 's' => 0.09074, 'min_tiga' => 6.2, 'min_dua' => 6.8, 'min_satu' => 7.4, 'median' => 8.1, 'satu' => 8.8, 'dua' => 9.7, 'tiga' => 10.7],
+        ['length' => 70.0, 'l' => -0.3833, 'm' => 8.163, 's' => 0.09068, 'min_tiga' => 6.3, 'min_dua' => 6.9, 'min_satu' => 7.5, 'median' => 8.2, 'satu' => 9.0, 'dua' => 9.9, 'tiga' => 10.9],
+        ['length' => 70.5, 'l' => -0.3833, 'm' => 8.2651, 's' => 0.09062, 'min_tiga' => 6.4, 'min_dua' => 6.9, 'min_satu' => 7.6, 'median' => 8.3, 'satu' => 9.1, 'dua' => 10.0, 'tiga' => 11.0],
+        ['length' => 71.0, 'l' => -0.3833, 'm' => 8.3666, 's' => 0.09056, 'min_tiga' => 6.5, 'min_dua' => 7.0, 'min_satu' => 7.7, 'median' => 8.4, 'satu' => 9.2, 'dua' => 10.1, 'tiga' => 11.1],
+        ['length' => 71.5, 'l' => -0.3833, 'm' => 8.4676, 's' => 0.0905, 'min_tiga' => 6.5, 'min_dua' => 7.1, 'min_satu' => 7.7, 'median' => 8.5, 'satu' => 9.3, 'dua' => 10.2, 'tiga' => 11.3],
+        ['length' => 72.0, 'l' => -0.3833, 'm' => 8.5679, 's' => 0.09043, 'min_tiga' => 6.6, 'min_dua' => 7.2, 'min_satu' => 7.8, 'median' => 8.6, 'satu' => 9.4, 'dua' => 10.3, 'tiga' => 11.4],
+        ['length' => 72.5, 'l' => -0.3833, 'm' => 8.6674, 's' => 0.09037, 'min_tiga' => 6.7, 'min_dua' => 7.3, 'min_satu' => 7.9, 'median' => 8.7, 'satu' => 9.5, 'dua' => 10.5, 'tiga' => 11.5],
+        ['length' => 73.0, 'l' => -0.3833, 'm' => 8.7661, 's' => 0.09031, 'min_tiga' => 6.8, 'min_dua' => 7.4, 'min_satu' => 8.0, 'median' => 8.8, 'satu' => 9.6, 'dua' => 10.6, 'tiga' => 11.7],
+        ['length' => 73.5, 'l' => -0.3833, 'm' => 8.8638, 's' => 0.09025, 'min_tiga' => 6.9, 'min_dua' => 7.4, 'min_satu' => 8.1, 'median' => 8.9, 'satu' => 9.7, 'dua' => 10.7, 'tiga' => 11.8],
+        ['length' => 74.0, 'l' => -0.3833, 'm' => 8.9601, 's' => 0.09018, 'min_tiga' => 6.9, 'min_dua' => 7.5, 'min_satu' => 8.2, 'median' => 9.0, 'satu' => 9.8, 'dua' => 10.8, 'tiga' => 11.9],
+        ['length' => 74.5, 'l' => -0.3833, 'm' => 9.0552, 's' => 0.09012, 'min_tiga' => 7.0, 'min_dua' => 7.6, 'min_satu' => 8.3, 'median' => 9.1, 'satu' => 9.9, 'dua' => 10.9, 'tiga' => 12.0],
+        ['length' => 75.0, 'l' => -0.3833, 'm' => 9.149, 's' => 0.09005, 'min_tiga' => 7.1, 'min_dua' => 7.7, 'min_satu' => 8.4, 'median' => 9.1, 'satu' => 10.0, 'dua' => 11.0, 'tiga' => 12.2],
+        ['length' => 75.5, 'l' => -0.3833, 'm' => 9.2418, 's' => 0.08999, 'min_tiga' => 7.1, 'min_dua' => 7.8, 'min_satu' => 8.5, 'median' => 9.2, 'satu' => 10.1, 'dua' => 11.1, 'tiga' => 12.3],
+        ['length' => 76.0, 'l' => -0.3833, 'm' => 9.3337, 's' => 0.08992, 'min_tiga' => 7.2, 'min_dua' => 7.8, 'min_satu' => 8.5, 'median' => 9.3, 'satu' => 10.2, 'dua' => 11.2, 'tiga' => 12.4],
+        ['length' => 76.5, 'l' => -0.3833, 'm' => 9.4252, 's' => 0.08985, 'min_tiga' => 7.3, 'min_dua' => 7.9, 'min_satu' => 8.6, 'median' => 9.4, 'satu' => 10.3, 'dua' => 11.4, 'tiga' => 12.5],
+        ['length' => 77.0, 'l' => -0.3833, 'm' => 9.5166, 's' => 0.08979, 'min_tiga' => 7.4, 'min_dua' => 8.0, 'min_satu' => 8.7, 'median' => 9.5, 'satu' => 10.4, 'dua' => 11.5, 'tiga' => 12.6],
+        ['length' => 77.5, 'l' => -0.3833, 'm' => 9.6086, 's' => 0.08972, 'min_tiga' => 7.4, 'min_dua' => 8.1, 'min_satu' => 8.8, 'median' => 9.6, 'satu' => 10.5, 'dua' => 11.6, 'tiga' => 12.8],
+        ['length' => 77.5, 'l' => -0.3833, 'm' => 9.6086, 's' => 0.08972, 'min_tiga' => 7.4, 'min_dua' => 8.1, 'min_satu' => 8.8, 'median' => 9.6, 'satu' => 10.5, 'dua' => 11.6, 'tiga' => 12.8],
+        ['length' => 78.0, 'l' => -0.3833, 'm' => 9.7015, 's' => 0.08965, 'min_tiga' => 7.5, 'min_dua' => 8.2, 'min_satu' => 8.9, 'median' => 9.7, 'satu' => 10.6, 'dua' => 11.7, 'tiga' => 12.9],
+        ['length' => 78.5, 'l' => -0.3833, 'm' => 9.7957, 's' => 0.08959, 'min_tiga' => 7.6, 'min_dua' => 8.2, 'min_satu' => 9.0, 'median' => 9.8, 'satu' => 10.7, 'dua' => 11.8, 'tiga' => 13.0],
+        ['length' => 79.0, 'l' => -0.3833, 'm' => 9.8915, 's' => 0.08952, 'min_tiga' => 7.7, 'min_dua' => 8.3, 'min_satu' => 9.1, 'median' => 9.9, 'satu' => 10.8, 'dua' => 11.9, 'tiga' => 13.1],
+        ['length' => 79.5, 'l' => -0.3833, 'm' => 9.9892, 's' => 0.08946, 'min_tiga' => 7.7, 'min_dua' => 8.4, 'min_satu' => 9.1, 'median' => 10.0, 'satu' => 10.9, 'dua' => 12.0, 'tiga' => 13.3],
+        ['length' => 80.0, 'l' => -0.3833, 'm' => 10.0891, 's' => 0.0894, 'min_tiga' => 7.8, 'min_dua' => 8.5, 'min_satu' => 9.2, 'median' => 10.1, 'satu' => 11.0, 'dua' => 12.1, 'tiga' => 13.4],
+        ['length' => 80.5, 'l' => -0.3833, 'm' => 10.1916, 's' => 0.08934, 'min_tiga' => 7.9, 'min_dua' => 8.6, 'min_satu' => 9.3, 'median' => 10.2, 'satu' => 11.2, 'dua' => 12.3, 'tiga' => 13.5],
+        ['length' => 81.0, 'l' => -0.3833, 'm' => 10.2965, 's' => 0.08928, 'min_tiga' => 8.0, 'min_dua' => 8.7, 'min_satu' => 9.4, 'median' => 10.3, 'satu' => 11.3, 'dua' => 12.4, 'tiga' => 13.7],
+        ['length' => 81.5, 'l' => -0.3833, 'm' => 10.4041, 's' => 0.08923, 'min_tiga' => 8.1, 'min_dua' => 8.8, 'min_satu' => 9.5, 'median' => 10.4, 'satu' => 11.4, 'dua' => 12.5, 'tiga' => 13.8],
+        ['length' => 82.0, 'l' => -0.3833, 'm' => 10.514, 's' => 0.08918, 'min_tiga' => 8.1, 'min_dua' => 8.8, 'min_satu' => 9.6, 'median' => 10.5, 'satu' => 11.5, 'dua' => 12.6, 'tiga' => 13.9],
+        ['length' => 82.5, 'l' => -0.3833, 'm' => 10.6263, 's' => 0.08914, 'min_tiga' => 8.2, 'min_dua' => 8.9, 'min_satu' => 9.7, 'median' => 10.6, 'satu' => 11.6, 'dua' => 12.8, 'tiga' => 14.1],
+        ['length' => 83.0, 'l' => -0.3833, 'm' => 10.741, 's' => 0.0891, 'min_tiga' => 8.3, 'min_dua' => 9.0, 'min_satu' => 9.8, 'median' => 10.7, 'satu' => 11.8, 'dua' => 12.9, 'tiga' => 14.2],
+        ['length' => 83.5, 'l' => -0.3833, 'm' => 10.8578, 's' => 0.08906, 'min_tiga' => 8.4, 'min_dua' => 9.1, 'min_satu' => 9.9, 'median' => 10.9, 'satu' => 11.9, 'dua' => 13.1, 'tiga' => 14.4],
+        ['length' => 84.0, 'l' => -0.3833, 'm' => 10.9767, 's' => 0.08903, 'min_tiga' => 8.5, 'min_dua' => 9.2, 'min_satu' => 10.1, 'median' => 11.0, 'satu' => 12.0, 'dua' => 13.2, 'tiga' => 14.5],
+        ['length' => 84.5, 'l' => -0.3833, 'm' => 11.0974, 's' => 0.089, 'min_tiga' => 8.6, 'min_dua' => 9.3, 'min_satu' => 10.2, 'median' => 11.1, 'satu' => 12.1, 'dua' => 13.3, 'tiga' => 14.7],
+        ['length' => 85.0, 'l' => -0.3833, 'm' => 11.2198, 's' => 0.08898, 'min_tiga' => 8.7, 'min_dua' => 9.4, 'min_satu' => 10.3, 'median' => 11.2, 'satu' => 12.3, 'dua' => 13.5, 'tiga' => 14.9],
+        ['length' => 85.5, 'l' => -0.3833, 'm' => 11.3435, 's' => 0.08897, 'min_tiga' => 8.8, 'min_dua' => 9.5, 'min_satu' => 10.4, 'median' => 11.3, 'satu' => 12.4, 'dua' => 13.6, 'tiga' => 15.0],
+        ['length' => 86.0, 'l' => -0.3833, 'm' => 11.4684, 's' => 0.08895, 'min_tiga' => 8.9, 'min_dua' => 9.7, 'min_satu' => 10.5, 'median' => 11.5, 'satu' => 12.6, 'dua' => 13.8, 'tiga' => 15.2],
+        ['length' => 86.5, 'l' => -0.3833, 'm' => 11.594, 's' => 0.08895, 'min_tiga' => 9.0, 'min_dua' => 9.8, 'min_satu' => 10.6, 'median' => 11.6, 'satu' => 12.7, 'dua' => 13.9, 'tiga' => 15.4],
+        ['length' => 87.0, 'l' => -0.3833, 'm' => 11.7201, 's' => 0.08895, 'min_tiga' => 9.1, 'min_dua' => 9.9, 'min_satu' => 10.7, 'median' => 11.7, 'satu' => 12.8, 'dua' => 14.1, 'tiga' => 15.5],
+        ['length' => 87.5, 'l' => -0.3833, 'm' => 11.8461, 's' => 0.08895, 'min_tiga' => 9.2, 'min_dua' => 10.0, 'min_satu' => 10.9, 'median' => 11.8, 'satu' => 13.0, 'dua' => 14.2, 'tiga' => 15.7],
+        ['length' => 89.5, 'l' => -0.3833, 'm' => 12.3477, 's' => 0.08903, 'min_tiga' => 9.6, 'min_dua' => 10.4, 'min_satu' => 11.3, 'median' => 12.3, 'satu' => 13.5, 'dua' => 14.8, 'tiga' => 16.4]
+    ]);
+    }
+}
