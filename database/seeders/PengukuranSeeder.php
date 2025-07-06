@@ -35,7 +35,7 @@ class PengukuranSeeder extends Seeder
         // ]);
 
         //Input data anak pake Seeder
-        $anak = Anak::find(6282119171960); // Ambil data anak yang akan diukur
+        $anak = Anak::find(6282119171964); // Ambil data anak yang akan diukur
         $tanggal_lahir = Carbon::parse($anak->tanggal_lahir);
         $tanggal_pengukuran = Carbon::now();
 
