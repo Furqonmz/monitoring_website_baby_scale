@@ -8,6 +8,7 @@
             <h5>Umur : {{ $anak->umur_bulan ?? 'Data tidak tersedia' }}</h5>
             <h5>Nama Ibu : {{ $anak->nama_ibu ?? '-' }}</h5>
             <h5>Nama Ayah : {{ $anak->nama_ayah ?? '-' }}</h5>
+            <h5>Email : {{ $anak->email ?? '-' }}</h5>
 
         <div class="py-6 bg-white sm:py-8">
             <div class="px-6 mx-auto max-w-7xl lg:px-8">

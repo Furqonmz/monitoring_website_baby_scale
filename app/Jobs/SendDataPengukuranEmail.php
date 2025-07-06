@@ -32,31 +32,5 @@ class SendDataPengukuranEmail implements ShouldQueue
     public function handle(): void
     {
          Mail::to($this->email)->send(new DataPengukuranMail($this->data));
-
-        //  $this->kirimWhatsApp($this->data['nomor_wa'], $this->data['pesan_wa']);
     }
-
-    // protected function kirimWhatsApp($tujuan, $pesan)
-    // {
-    //     $sid = env('TWILIO_SID');
-    //     $token = env('TWILIO_AUTH_TOKEN');
-    //     $from = env('TWILIO_WHATSAPP_FROM');
-
-    //     $client = new Client($sid, $token);
-
-    //     $client->messages->create("whatsapp:$tujuan", [
-    //         'from' => $from,
-    //         'body' => $pesan
-    //     ]);
-    // }
-
-    // protected function formatPesanWa($data)
-    // {
-    //     return "Halo {$data['nama_orangtua']}, berikut data pengukuran anak Anda:\n"
-    //         . "Nama: {$data['nama']}\n"
-    //         . "Berat: {$data['berat']} kg\n"
-    //         . "Tinggi: {$data['tinggi']} cm\n"
-    //         . "Status Gizi: {$data['status_gizi']}";
-    // }
-
 }

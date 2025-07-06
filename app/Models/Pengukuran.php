@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Pengukuran extends Model
 {
     protected $table = 'pengukuran';
-    public $timestamps = false;
+    public $timestamps = true;
 
 
     protected $fillable = [

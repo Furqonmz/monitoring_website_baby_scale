@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 use App\Models\Anak;
 use App\Models\Pengukuran;
 use Carbon\Carbon;
@@ -33,6 +34,7 @@ class PengukuranSeeder extends Seeder
         //     'tinggi' => 70.7,
         // ]);
 
+        //Input data anak pake Seeder
         $anak = Anak::find(6282119171960); // Ambil data anak yang akan diukur
         $tanggal_lahir = Carbon::parse($anak->tanggal_lahir);
         $tanggal_pengukuran = Carbon::now();
@@ -40,11 +42,17 @@ class PengukuranSeeder extends Seeder
         $umur =  round($tanggal_lahir->diffInDays($tanggal_pengukuran) / 30, 1);
 
         Pengukuran::create([
-            'anak_id' => 6282119171964,
+            'anak_id' => $anak->id,
             'berat' => 8,
-            'tinggi' => 80,
+            'tinggi' => 85,
             'umur' => $umur,
         ]);
 
+        // DB::statement("
+        //     UPDATE pengukuran
+        //     JOIN Klasifikasi_pengukuran ON klasifikasi_pengukuran.pengukuran_id = pengukuran_id
+        //     SET pengukuran.created_at = klasifikasi_pengukuran.created_at
+        //     WHERE pengukuran.created_at IS NULL
+        // ");
     }
 }
