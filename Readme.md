@@ -5,3 +5,6 @@ Memulai server
 
 Memulai tailwind
 - npm run dev
+
+database untuk website
+- terdapat dalam file database/coba.sql
